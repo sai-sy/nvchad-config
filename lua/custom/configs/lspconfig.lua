@@ -13,6 +13,15 @@ lspconfig.gopls.setup {
   cmd = {"gopls"},
   filetypes = {"go","gomod","gowork","gompl"},
   root_dir = util.root_pattern("go_work","go_mod",".git"),
+  settings ={
+    gopls = {
+      completeUnImported = true,
+      usePlaceholders = true,
+      analyses = {
+        unsedparams = true,
+      }
+    }
+  }
 }
 
 for _, lsp in ipairs(servers) do

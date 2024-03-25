@@ -3,6 +3,7 @@ local M = {}
 M.treesitter = {
   ensure_installed = {
     "vim",
+    "go",
     "lua",
     "html",
     "css",
@@ -37,6 +38,9 @@ M.mason = {
     -- c/cpp stuff
     "clangd",
     "clang-format",
+
+    -- golang
+    "gopls",
   },
 }
 
