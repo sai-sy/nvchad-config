@@ -40,18 +40,7 @@ local plugins = {
       require("core.utils").load_mappings("dap_go")
     end
   },
-  {
-    "olexsmir/gopher.nvim",
-    ft = "go",
-    config = function(_, opts)
-      require("gopher").setup(opts)
-      require("core.utils").load_mappings("gopher")
-    end,
-    build = function()
-      vim.cmd [[silent! GoInstallDeps]]
-    end,
-  },
-  -- override plugin configs
+    -- override plugin configs
   {
     "williamboman/mason.nvim",
     opts = overrides.mason
@@ -75,7 +64,17 @@ local plugins = {
       require("better_escape").setup()
     end,
   },
-
+  {
+    "olexsmir/gopher.nvim",
+    ft = "go",
+    config = function(_, opts)
+      require("gopher").setup(opts)
+      require("core.utils").load_mappings("gopher")
+    end,
+    build = function()
+      vim.cmd [[silent! GoInstallDeps]]
+    end,
+  },
   -- To make a plugin not be loaded
   -- {
   --   "NvChad/nvim-colorizer.lua",
