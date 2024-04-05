@@ -16,3 +16,6 @@
 `<I>` - Jumped to start of line in insert mode
 `<A>` - Jumped to end of line in insert mode
 `<o>` - Creates new line underneath current line and jumps to it in insert mode
+`<C-y>` - move the screen up one line at a time
+`<C-e>` - move the screen down one line at a time
+`<z-z>` - move the line to the center of the screen
