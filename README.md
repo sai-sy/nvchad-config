@@ -10,6 +10,8 @@
 - [ ] Figure out a solution for ctrl + shift + arrow selections. The main reason I've found nvim not as fast as VSCode is that I've grown up already using standardized text shortcuts. Any text software has ctrl and ctrl shift movement, which speeds up workflows immensely. Visual mode is just so much slower. I'm wondering if I can amp <C+Sh> to put me into visual mode automatically from insert mode perhaps
 - [ ] For some reason the way putting in a quotation mark exits out and doesn't create two. Or a bracket or anything. A semi colon from snippets creates two semi colons. Which is bloody annoying. 
 - [ ] control right arrow goes to next line instead of end of line. that's whack
+- [ ] sticky block. The function or class you are working in can't be scrolled past
+- [ ] roll up blocks
 
 ## Tips
 ### Normal Mode
