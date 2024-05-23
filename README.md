@@ -16,6 +16,7 @@ https://lloydrochester.com/post/vim/wsl-neovim-copy-paste/
 - [ ] sticky block. The function or class you are working in can't be scrolled past  
 https://github.com/nvim-treesitter/nvim-treesitter-context  
 - [ ] roll up blocks
+- [ ] <C-w> to close tab? frame? buffer? window?
 
 ## Tips
 ### Normal Mode
