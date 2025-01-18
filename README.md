@@ -27,3 +27,6 @@ https://github.com/nvim-treesitter/nvim-treesitter-context
 `<C-y>` - move the screen up one line at a time
 `<C-e>` - move the screen down one line at a time
 `<z-z>` - move the line to the center of the screen
+
+### File Tree
+`<a>` - Create file
