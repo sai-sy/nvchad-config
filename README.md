@@ -20,6 +20,7 @@ https://github.com/nvim-treesitter/nvim-treesitter-context
 
 ## Tips
 ### Normal Mode
+<<<<<<< HEAD
 `<I>` - Jumped to start of line in insert mode
 `<A>` - Jumped to end of line in insert mode
 `<o>` - Creates new line underneath current line and jumps to it in insert mode
@@ -30,3 +31,12 @@ https://github.com/nvim-treesitter/nvim-treesitter-context
 
 ### File Tree
 `<a>` - Create file
+=======
+`<I>` - Jumped to start of line in insert mode  
+`<A>` - Jumped to end of line in insert mode  
+`<o>` - Creates new line underneath current line and jumps to it in insert mode  
+`<C-o>` - jumps to last jump point  
+`<C-y>` - move the screen up one line at a time  
+`<C-e>` - move the screen down one line at a time  
+`<z-z>` - move the line to the center of the screen  
+>>>>>>> 3db64891ac335b8dc7dee51ec989cc07ad8fc37c
