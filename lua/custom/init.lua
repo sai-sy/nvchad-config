@@ -5,3 +5,5 @@
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+vim.opt.foldmethod="indent"
+vim.opt.foldlevel=99

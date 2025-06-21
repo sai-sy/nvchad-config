@@ -23,12 +23,12 @@ https://lloydrochester.com/post/vim/wsl-neovim-copy-paste/
 https://github.com/nvim-treesitter/nvim-treesitter-context  
 - [ ] I compelted sticky headers but everytime I open nvim it gives me an error. Still works tho
 https://github.com/nvim-treesitter/nvim-treesitter-context/issues/549
-- [ ] roll up blocks
+- [x] roll up blocks
 - [ ] <C-w> to close tab? frame? buffer? window?
 - [ ] spell check
 
 ## Tips
-#### nvim-surround
+### nvim-surround
     Old text                    Command         New text
 --------------------------------------------------------------------------------
     surr*ound_words             ysiw)           (surround_words)
@@ -38,6 +38,11 @@ https://github.com/nvim-treesitter/nvim-treesitter-context/issues/549
     'change quot*es'            cs'"            "change quotes"
     <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
     delete(functi*on calls)     dsf             function calls
+### fold
+<z-o> opens fold at cursor
+<z-shift-o> opens all folds at cursor
+<z-c> close fold at cursor
+<z-shift-c> close all folds at cursor
 ### Normal Mode
 `<I>` - Jumped to start of line in insert mode
 `<A>` - Jumped to end of line in insert mode
