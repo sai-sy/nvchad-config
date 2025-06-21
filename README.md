@@ -19,8 +19,10 @@ https://lloydrochester.com/post/vim/wsl-neovim-copy-paste/
     - i found a fix but have found this to be helpful. I often want to go to the start of the next line. `<C-a>` lets me go to the end anyways
 - [ ] For some reason the way putting in a quotation mark exits out and doesn't create two. Or a bracket or anything. A semi colon from snippets creates two semi colons. Which is bloody annoying. 
 - [x] Not sure what I mean with the above todo but I've added surrounded quotation marks. Syntax is a bit wonky so I've added a section in my docs below
-- [ ] sticky block. The function or class you are working in can't be scrolled past  
+- [x] sticky block. The function or class you are working in can't be scrolled past  
 https://github.com/nvim-treesitter/nvim-treesitter-context  
+- [ ] I compelted sticky headers but everytime I open nvim it gives me an error. Still works tho
+https://github.com/nvim-treesitter/nvim-treesitter-context/issues/549
 - [ ] roll up blocks
 - [ ] <C-w> to close tab? frame? buffer? window?
 - [ ] spell check
