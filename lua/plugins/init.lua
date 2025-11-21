@@ -19,8 +19,7 @@ return {
     end,
   },
 
-  { import = "plugins.telescope" },
-
+  { import = "configs.telescope" },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
