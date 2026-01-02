@@ -11,3 +11,10 @@ autocmd("FileType", {
     vim.opt_local.softtabstop = 2
   end,
 })
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "css",
+  callback = function()
+    vim.opt_local.iskeyword:remove("-")
+  end,
+})

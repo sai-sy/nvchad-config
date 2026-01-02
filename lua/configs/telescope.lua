@@ -28,7 +28,7 @@ return {
         desc = "Telescope live grep",
       },
       {
-        "<C-h>",
+        "<leader>tt",
         function()
           local state = require("telescope").extensions._toggle_state
           state.hidden = not state.hidden
